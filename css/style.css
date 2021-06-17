@@ -4,14 +4,14 @@ body{
    
 }
 main{  
-    /* overflow-y:auto; */
-   background-color: #131822;
+   
+  
 }
 
 nav{
     background-color: #000;
     width: 100px;
-    height: calc(100% - 100px);
+    height: calc(100vh - 100px);
     position: fixed;
     top:0;
     left: 0;
@@ -37,7 +37,7 @@ img{
 }
 /*? Topbar */
 .topbar{
-    height: 15vh;
+    height: 100px;
     background-color: rgba(0, 0, 0,0.4);
     position: fixed;
     top:0;
@@ -53,6 +53,7 @@ img{
 .wrapper{
     height: calc(100vh - 100px);
     width: 100%;
+    background-color: #131822;
 }
 
 .row{
@@ -60,9 +61,6 @@ img{
     display: flex;
 }
 /*? Footer */
-#ctrl-song-album{
-    min-width: 110%;
-}
 
 .center{
     justify-content: center;
@@ -74,6 +72,11 @@ img{
     align-items: center;
 }
 
+.box-img{
+    height: 100%;
+    width:50%;
+    background-color: aqua;
+}
 /*! Fonts  & Margini*/
 .light-margin{
     margin: 0 2px;
