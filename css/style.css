@@ -4,7 +4,7 @@ body{
    
 }
 main{  
-    overflow-y:auto;
+    /* overflow-y:auto; */
    background-color: #131822;
 }
 
@@ -23,6 +23,19 @@ footer{
     height: 100px;
 }
 
+img{
+    width:100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-wrap{
+    display: flex;
+    flex-wrap:wrap;
+}
+/*? Topbar */
 .topbar{
     height: 15vh;
     background-color: rgba(0, 0, 0,0.4);
@@ -42,4 +55,44 @@ footer{
     width: 100%;
 }
 
+.row{
+    min-height: 100px;
+    display: flex;
+}
+/*? Footer */
+#ctrl-song-album{
+    min-width: 110%;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.around{
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*! Fonts  & Margini*/
+.light-margin{
+    margin: 0 2px;
+}
+.light-padding{
+    padding: 0 2px;
+}
+
+#footer-left p{
+    font-size: x-small;
+}
+/*! My Color Stub */
+[class*='col-']{
+    background-color: yellow;
+
+}
+
+[class*='col-'] [class*='col-'] {
+    background-color: pink;
+    min-height: 100px;
+}
 
