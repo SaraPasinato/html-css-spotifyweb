@@ -1,11 +1,11 @@
  /*! Utils */
 body{
     position: relative;
-    background-color: #365799;
+   
 }
 main{  
     overflow-y:auto;
-   background-color: yellow;
+   background-color: #131822;
 }
 
 nav{
