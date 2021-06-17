@@ -4,6 +4,7 @@
     }
 
 .topbar{
-     min-width: calc(100% - 150px);
+     max-width: calc(100% - 150px);
     }
+
 }
