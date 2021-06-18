@@ -1,7 +1,7 @@
  /*! Utils */
 body{
     position: relative;
-   
+    font-family: sans-serif;
 }
 
 
@@ -68,7 +68,7 @@ img{
     padding: 4px 0;
     width: 100%;
     height: 50%;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 /*? Footer */
 
@@ -92,7 +92,6 @@ img{
 }
 
 .control-icon{
-    background-color:brown;
     width:50%;
     height: 50%;
 }
@@ -106,22 +105,32 @@ img{
 
 #footer-left p{
     font-size: x-small;
+    color:#666;
 }
 /*! link & btn*/
 a{
     text-decoration: none;
 }
 #footer-left  a{
-    color: #cecece;
+    color: #666;
 }
+
+/*! Colors */
+.gray-text{
+    color:#666;
+}
+.white-text{
+    color:#fff;
+}
+
 /*! My Color Stub */
 [class*='col-']{
-    background-color: yellow;
+    /* background-color: yellow; */
 
 }
 
 [class*='col-'] [class*='col-'] {
-    background-color: pink;
-    min-height: 100px;
+    /* background-color: pink; */
+    /* min-height: 100px; */
 }
 
