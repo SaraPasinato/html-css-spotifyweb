@@ -70,6 +70,13 @@ img{
     height: 50%;
     /* background-color: chartreuse; */
 }
+
+.icon-box-inline{
+    width:100%;
+    height: 50%;
+    padding: 4px 0;
+    display: inline;
+}
 /*? Footer */
 
 .center{
@@ -95,8 +102,10 @@ img{
     width:50%;
     height: 50%;
 }
+
+
 /*! Fonts  & Margins*/
-.light-margin{
+.light-margin-lr{
     margin: 0 5px;
 }
 .light-padding{
@@ -125,12 +134,16 @@ a{
 
 /*! My Color Stub */
 [class*='col-']{
-    /* background-color: yellow; */
+     background-color: yellow; 
 
 }
 
 [class*='col-'] [class*='col-'] {
-    /* background-color: pink; */
-    /* min-height: 100px; */
+    background-color: pink;
+  
 }
 
+#player{
+    background-color: chartreuse;
+    height: 50%;
+}
