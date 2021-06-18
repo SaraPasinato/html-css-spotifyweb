@@ -78,7 +78,9 @@ img{
     display: inline;
 }
 /*? Footer */
-
+.inline{
+    display: inline-block;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -89,10 +91,12 @@ img{
 }
 
 .last-baseline{
+    justify-content: center;
     align-items: last baseline;
 }
 
 .baseline{
+    justify-content: center;
     align-items: baseline;
 }
 .start-center{

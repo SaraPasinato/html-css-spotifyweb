@@ -8,4 +8,24 @@
      max-width: calc(100% - 150px);
     }
 
+.box-img{
+    margin: 5px;
+}
+/*? Footer */
+#footer-center [class *='fas fa-']{
+    font-size: 0.875em;
+    margin: 0 7px;
+}
+
+.fa-xs{
+    font-size: .75em;
+}
+
+#sound-line{
+   min-width: 60px;
+   margin-right: 5px;
+}
+#time-line{
+    min-width:126px;
+}
 }
