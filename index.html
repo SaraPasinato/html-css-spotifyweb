@@ -21,26 +21,45 @@
 
     <div class="wrapper">
         <!-- Navbar left -->
-        <nav class="white-text">
+        <nav class="">
             <!-- navbar section up -->
             <div id="top-nav">
-                <div id="box-nav-logo"></div>
-                <div id="home" class="box-nav"></div>
-                <div id="search" class="box-nav"></div>
-                <div id="library" class="box-nav"></div>
+                <div id="box-nav-logo" class="  box-nav-logo-lg">
+                    <img src="./img/logo-small.svg" alt="">
+
+                </div>
+                <div class="content clearfix">
+                    <div id="home" class="box-nav f-left">
+                        <img src="./img/home.svg" alt="">
+                    </div>
+                    <p class=" xs-invisible f-left"><a href="">home</a></p>
+                </div>
+
+                <div class="content clearfix">
+                    <div id="search" class="box-nav f-left">
+                        <img src="./img/search.svg" alt="">
+                    </div>
+                    <p class=" xs-invisible f-left"><a href="">cerca</a></p>
+                </div>
+                <div class="content clearfix">
+                    <div id="library" class="box-nav f-left">
+                        <img src="./img/libreria.svg" alt="">
+                    </div>
+                    <p class=" xs-invisible f-left "><a href="">La tua libreria</a></p>
+                </div>
             </div>
             <!-- section playlist -->
             <div id="playlist-nav"></div>
             <!-- section user bottom nav -->
             <div id="bottom-nav">
-                <div id="download" class="box-nav-small"></div>
-                <div id="user" class="box-nav-user"></div>
-                
+                <!-- <div id="download" class="box-nav-small"></div>
+                <div id="user" class="box-nav-user"></div> -->
+
             </div>
         </nav>
         <!-- Header -->
         <header class="topbar text-right">
-            <a href=""class="btn btn-black btn-large">Effettua l'upgrade</a>
+            <a href="" class="btn btn-black btn-large">Effettua l'upgrade</a>
         </header>
         <!-- container custom -->
         <main>
@@ -104,7 +123,7 @@
                             <span><a href=""><i class="fas fa-desktop fa-xs"></i></a></span>
                             <div class="sound-control inline">
                                 <span><a href=""><i class="fas fa-volume-up fa-xs"></i></a></span>
-                                <div  id="sound-line"></div>
+                                <div id="sound-line"></div>
                             </div>
 
                         </div>
