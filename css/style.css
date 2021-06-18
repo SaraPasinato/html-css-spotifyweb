@@ -127,7 +127,7 @@ img{
     background-size: contain;
     background-color: #666;
 }
-}
+
 
 
 /*? Topbar */
@@ -139,6 +139,7 @@ img{
     right:0;
     width: calc(100% - 50px);
     line-height: 70px;
+   
 }
 
 .container-small{ 
