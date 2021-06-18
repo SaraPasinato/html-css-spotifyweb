@@ -83,19 +83,31 @@ img{
     justify-content: center;
     align-items: center;
 }
+.between{
+    justify-content: space-between;
+    align-items: center;
+}
 
+.last-baseline{
+    align-items: last baseline;
+}
+
+.baseline{
+    align-items: baseline;
+}
 .start-center{
     justify-content: flex-start;
     align-items: center;
 }
 
 .box-img{
-    height: 70%;
-    width: 30%;
+    height: 80%;
+    width: 40%;
     background-image: url('../img/sinister.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 3px;
 }
 
 .control-icon{
@@ -103,7 +115,29 @@ img{
     height: 50%;
 }
 
+.time-line-control,
+.control-icon-player{
+    width: max-content;
+    height: 50%;
+    /* background-color: chartreuse; */
+}
 
+#time-line{
+   display: inline-block;
+   height: 3px;
+   width: 75px;
+    background-color: #666;
+    border-radius: 3px;
+}
+
+#sound-line{
+    display: inline-block;
+    height: 3px;
+    width: 30px;
+     background-color: #666;
+     border-radius: 3px;
+     margin-bottom: 3px;
+ }
 /*! Fonts  & Margins*/
 .light-margin-lr{
     margin: 0 5px;
@@ -112,6 +146,7 @@ img{
     padding: 0 5px;
 }
 
+.time-line-control span,
 #footer-left p{
     font-size: x-small;
     color:#666;
@@ -119,11 +154,12 @@ img{
 /*! link & btn*/
 a{
     text-decoration: none;
-}
-#footer-left  a{
     color: #666;
 }
-
+#footer-right a,
+#footer-center a{
+    color:#fff;
+}
 /*! Colors */
 .gray-text{
     color:#666;
@@ -134,16 +170,12 @@ a{
 
 /*! My Color Stub */
 [class*='col-']{
-     background-color: yellow; 
+     /* background-color: yellow;  */
 
 }
 
 [class*='col-'] [class*='col-'] {
-    background-color: pink;
+    /* background-color: pink; */
   
 }
 
-#player{
-    background-color: chartreuse;
-    height: 50%;
-}
