@@ -107,10 +107,16 @@
 
     /*? main */
     #top-manu .container-small{
-        padding-left: 190px;
+        padding-left: 175px;
     }
 
+    #sub-nav .flex-link{
+        margin: 5px 18px;
+    }
 
+    #sub-nav hr{
+        margin:0 15px;
+    }
     /*? Footer */
     #footer-center [class *='fas fa-']{
         font-size: 0.875em;
@@ -127,7 +133,13 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    /*? main*/
+    #sub-nav .flex-link{
+        margin: 5px 9px;
+    }
+    
+   
+    /*? Footer*/
     .control-icon-player .light-margin-lr {
         margin:20px;
      }
@@ -153,6 +165,11 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+      /*? main*/
+      #sub-nav .flex-link{
+        margin: 5px 10px;
+    }
+    /*? Footer*/
     #footer-center [class *='fas fa-']{
         font-size: 1.33em;
     }

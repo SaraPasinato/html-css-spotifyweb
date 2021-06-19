@@ -159,7 +159,7 @@ img{
 
 .container-small{
     margin: 0 auto;
-    padding-left: 41px;
+    padding-left: 40px;
 
 
 }
@@ -198,17 +198,17 @@ img{
 .flex-link{
     /* background-color: tomato; */
     min-height: 15px;
-    margin: 5px 10px;
+    margin: 5px 18px;
     line-height: 15px;
     padding: 5px 0px;
     
 }
 
 #sub-nav hr{
-    max-width: 50%;
+    max-width: 70%;
     color: #95dc2d;
     margin-top:2px;
-    margin-left:22px;
+    margin:0 17px;
 }
 #sub-nav .row li{
     list-style-type: none;
