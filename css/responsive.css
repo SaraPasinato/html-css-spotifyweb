@@ -2,11 +2,11 @@
  /* breckpoint small */
 @media screen and (min-width:576px){
     nav{
-        min-width: 150px;
+        min-width: 160px;
     }
 
     .topbar{
-        max-width: calc(100% - 150px);
+        max-width: calc(100% - 160px);
         }
 
     .box-img{
@@ -21,16 +21,37 @@
         max-width: 100%;
     }
     
-    
+    .box-nav{
+        margin: 6px 10px;
+    }
+    #bottom-nav .xs-invisible,
     #top-nav .xs-invisible{
        visibility: visible;
        font-size: small;
-       padding-top: 10px;
+       padding-top: 8px;
        padding-left: 0;
        padding-right: 0;
        text-transform: capitalize;
          }
+
     
+    #bottom-nav .content:first-child{
+        border-bottom: .5px solid #666;
+     }
+    
+     #bottom-nav  #download{
+       max-width: 11%;
+        height: 12px;
+     }
+
+    #bottom-nav .content:last-child{
+        padding-top: 18px;
+    }
+    #bottom-nav .content:last-child a{
+        color: #fff;
+        font-weight: bold;
+        font-size: 14px;
+    }
     #home{
        background-image: url('../img/home.svg');
     }
