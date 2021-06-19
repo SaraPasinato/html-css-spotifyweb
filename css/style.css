@@ -219,9 +219,40 @@ img{
     text-align: center;
     display: block;
     font-size: x-small;
-    
 
 }
+   /*? sections */
+   #recently{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card{
+    margin:20px 15px 20px 0px;
+    flex-basis: 173px;
+    min-height:210px;
+    /* background-color: tomato; */
+}
+
+#recently .card .album{
+    min-height: 150px;
+    background-color: teal;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+#recently .card h6{
+    font-size: 1em;
+}
+#recently .card p{
+    font-size: .8em;
+    color: #a2a2a2;;
+}
+
+
 /*? Footer */
 
 .box-img{
@@ -333,3 +364,21 @@ a{
 }
 
 /* ! Background img */
+#heavy{
+    background-image: url('../img/metal_lifting.jpg');
+}
+#stranger{
+    background-image: url('../img/stranger.jpeg');
+}
+#quiet{
+    background-image: url('../img/aquietplace.jpeg');
+}
+#split{
+    background-image: url('../img/split.jpeg');
+}
+#cure{
+    background-image: url('../img/cure.jpeg');
+}
+#sinister{
+    background-image: url('../img/sinister.jpeg');
+}

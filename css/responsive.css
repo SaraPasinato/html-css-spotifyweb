@@ -117,6 +117,12 @@
     #sub-nav hr{
         margin:0 15px;
     }
+
+    #top-manu #sub-nav a{
+        font-size: smaller;
+    }
+
+ 
     /*? Footer */
     #footer-center [class *='fas fa-']{
         font-size: 0.875em;
@@ -136,9 +142,18 @@
     /*? main*/
     #sub-nav .flex-link{
         margin: 5px 9px;
+       
     }
-    
-   
+     #top-manu #sub-nav a{
+        font-size: medium;
+    }
+  #top-manu  #recently{
+        margin-left:10px
+    }
+    #recently .card{
+        margin: 20px 8px 20px 0px;
+        flex-basis: 150px;
+    }
     /*? Footer*/
     .control-icon-player .light-margin-lr {
         margin:20px;
@@ -168,6 +183,10 @@
       /*? main*/
       #sub-nav .flex-link{
         margin: 5px 10px;
+    }
+    #recently .card{
+        margin: 20px 15px 20px 0px;
+        flex-basis: 167px;
     }
     /*? Footer*/
     #footer-center [class *='fas fa-']{
