@@ -124,6 +124,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .box-nav-user{
@@ -139,6 +140,7 @@ img{
     background-size: contain;
     background-color: #666;
     background-image: url('../img/profile.svg');
+    cursor: pointer;
 }
 
 
@@ -195,6 +197,7 @@ img{
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 3px;
+    cursor: pointer;
 }
 
  
