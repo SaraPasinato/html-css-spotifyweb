@@ -1,12 +1,10 @@
 
  /* breckpoint small */
 @media screen and (min-width:576px){
-    nav{
+    #main-nav{
         min-width: 160px;
     }
-    #top-manu .container-small{
-        padding-left: 190px;
-    }
+   
 
     .topbar{
         max-width: calc(100% - 160px);
@@ -103,9 +101,15 @@
         margin-bottom: 10px;
     }
 
-    nav img{
+    #main-nav img{
         display: none;
     }
+
+    /*? main */
+    #top-manu .container-small{
+        padding-left: 190px;
+    }
+
 
     /*? Footer */
     #footer-center [class *='fas fa-']{
