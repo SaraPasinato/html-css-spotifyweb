@@ -24,9 +24,13 @@
     
     #top-nav .xs-invisible{
        visibility: visible;
-       font-size: x-small;
-    }
-
+       font-size: small;
+       padding-top: 10px;
+       padding-left: 0;
+       padding-right: 0;
+       text-transform: capitalize;
+         }
+    
     #home{
        background-image: url('../img/home.svg');
     }
