@@ -158,8 +158,9 @@ img{
 }
 
 .container-small{ 
-    width:30%;
     margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 32px;
    
 }
 

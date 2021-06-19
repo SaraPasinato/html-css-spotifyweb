@@ -4,6 +4,9 @@
     nav{
         min-width: 160px;
     }
+    #top-manu .container-small{
+        padding-left: 190px;
+    }
 
     .topbar{
         max-width: calc(100% - 160px);
