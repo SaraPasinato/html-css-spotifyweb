@@ -159,8 +159,8 @@ img{
 
 .container-small{
     margin: 0 auto;
-    padding-left: 60px;
-    padding-right: 32px;
+    padding-left: 41px;
+
 
 }
 
@@ -171,7 +171,7 @@ img{
     overflow-y:auto;
 }
 
-.row{
+#main-footer .row{
     min-height: 100px;
     display: flex;
 }
@@ -193,9 +193,33 @@ img{
 
 #sub-nav{
     margin-top:80px;
-    height: 30px;
-    background-color:yellow;
-    width: 100%;
+}
+
+.flex-link{
+    /* background-color: tomato; */
+    min-height: 15px;
+    margin: 5px 10px;
+    line-height: 15px;
+    padding: 5px 0px;
+    
+}
+
+#sub-nav hr{
+    max-width: 50%;
+    color: #95dc2d;
+    margin-top:2px;
+    margin-left:22px;
+}
+#sub-nav .row li{
+    list-style-type: none;
+}
+
+#sub-nav .row a{
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: x-small;
+    
 
 }
 /*? Footer */
@@ -297,8 +321,9 @@ a{
 }
 
 /*! My Color Stub */
-[class*='col-']{
+#sub-nav [class*='col-']{
      /* background-color: yellow;  */
+     
 
 }
 
