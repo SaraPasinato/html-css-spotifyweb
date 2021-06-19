@@ -117,11 +117,50 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    .control-icon-player .light-margin-lr {
+        margin:20px;
+     }
+ 
+     #sound-line{
+         min-width: 100px;
+         margin-right: 5px;
+      }
+ 
+     #time-line{
+         min-width:194px;
+      }
+
+    #footer-left  .md-right{
+          justify-content: flex-start;
+            align-items: center;
+      }
+
+    #footer-left .text-container{
+        padding-left:15px;
+    }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #footer-center [class *='fas fa-']{
+        font-size: 1.33em;
+    }
 
+    #footer-center .fa-lg{
+        font-size: 2em;
+    }
+   .control-icon-player .light-margin-lr {
+       margin:20px;
+    }
+
+    #sound-line{
+        min-width: 100px;
+        margin-right: 5px;
+     }
+
+    #time-line{
+        min-width:272px;
+     }
  }
 
  /* X-Large devices (large desktops, 1200px and up) */
