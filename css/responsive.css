@@ -13,8 +13,26 @@
         margin: 5px;
     }
     /*? Nav  */
+    #playlist-nav .content p{
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    #playlist-nav ul{
+        font-size: smaller;
+        padding-top: 10px;
+    }
+
+    #playlist-nav ul li{
+        list-style-type: none;
+        padding-top: 10px;
+    }
+
     #home p .s-invisible{
         display: block;
+    }
+
+    #playlist-nav .xs-hidden{
+        visibility: visible;
     }
     .box-nav-logo-lg{
         background-image: url('../img/logo.svg');
