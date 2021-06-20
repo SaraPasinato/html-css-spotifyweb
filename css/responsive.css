@@ -226,6 +226,13 @@
     
          padding: 15px 22px;
     }
+    /*? Footer */
+    #footer-left .text-container p{
+        font-size: smaller;
+    }
+    #footer-left .text-container h6{
+        font-size: medium;
+    }
  }
 
  /* XX-Large devices (larger desktops, 1400px and up) */
