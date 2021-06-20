@@ -134,7 +134,7 @@ img{
 
 .box-nav-user{
     color: white;
-    /* width: 50%; */
+  
     height: 20px;
     margin: 0 10px;
     border-radius: 50%;
@@ -233,7 +233,7 @@ img{
     }
 
 .card{
-    margin:20px 15px 20px 0px;
+    margin:20px 15px 20px 20px;
     flex-basis: 173px;
     min-height:210px;
 }
