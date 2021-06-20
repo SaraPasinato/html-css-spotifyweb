@@ -310,10 +310,28 @@ a:hover{
 }
 
 #time-line{
-   display: inline-block;
+   display:inline-block;
    height: 3px;
    width: 75px;
     background-color: #666;
+    border-radius: 3px;
+    position: relative;
+}
+
+#sound-line:hover #sound-current,
+#time-line:hover #time-line-current{
+    visibility: visible;
+}
+
+#time-line-current{
+    visibility: hidden;
+   position: absolute;
+    top:0;
+    left:0;
+   display: inline-block;
+    height: 3px;
+    width: 50px;
+    background-color: #95dc2d;
     border-radius: 3px;
 }
 
@@ -324,6 +342,23 @@ a:hover{
      background-color: #666;
      border-radius: 3px;
      margin-bottom: 3px;
+     position: relative;
+ }
+
+#sound-current{
+    visibility: hidden;
+    display: inline-block;
+     height: 3px;
+     width: 70px;
+
+     background-color: #95dc2d;
+     border-radius: 3px;
+     margin-bottom: 3px;
+
+     position: absolute;
+     top:0;
+     left:0;
+
  }
 /*! Fonts  & Margins*/
 .light-margin-lr{
