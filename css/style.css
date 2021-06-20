@@ -104,6 +104,7 @@ img{
     color: #fff;
     text-transform: uppercase;
     padding-bottom: 10px;
+    margin: 17px 0 0 0;
 }
 #bottom-nav{
     width: 100%;
@@ -159,7 +160,7 @@ img{
     right:0;
     width: calc(100% - 50px);
     line-height: 20px;
-
+    z-index: 1;
 }
 
 .container-small{
