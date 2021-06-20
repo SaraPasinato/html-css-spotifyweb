@@ -271,11 +271,19 @@ img{
 }
 
 /* ! hover */
+#footer-left p:hover,
 #top-nav .content a:hover,
 a:hover{
     color:#fff;
 }
 
+.btn:hover{
+    scale: 1.2;
+}
+
+#player [class*='fa']:hover{
+    scale: 1.2;
+}
 /*? Footer */
 
 .box-img{
@@ -368,11 +376,10 @@ a{
    
 }
 
-.btn:hover{
-    scale: 1.2;
-}
+
 
 /*! Colors */
+
 #top-nav p a{
     color: #777777;
     text-decoration: none;
