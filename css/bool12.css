@@ -34,23 +34,14 @@
 .nowrap{
     flex-wrap:nowrap;
 }
-/*  flex column  */
-.column{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
-    
-}
+
 /*  flex col  */
 .col-xs{
     flex-grow: 1;
 }
 
-.row-xs{
-    flex-grow: 1;
-}
 
-[class*='row-'],
+
 [class*='col']{
     
     flex-shrink: 0;
@@ -108,56 +99,7 @@
     flex-basis: calc(100%/12 * 1);
     max-width: calc(100%/12 * 1);
 }
-/*  flex row 12 grid system */
-.row-xs-12{
-    flex-basis: calc(100%/12 * 12);
-    max-height: calc(100%/12 * 12);
-}
-.row-xs-11{
-    flex-basis: calc(100%/12 * 11);
-    max-height: calc(100%/12 * 11);
-}
-.row-xs-10{
-    flex-basis: calc(100%/12 * 10);
-    max-height: calc(100%/12 * 10);
-}
-.row-xs-9{
-    flex-basis: calc(100%/12 * 9);
-    max-height: calc(100%/12 * 9);
-}
-.row-xs-8{
-    flex-basis: calc(100%/12 * 8);
-    max-height: calc(100%/12 * 8);
-}
-.row-xs-7{
-    flex-basis: calc(100%/12 * 7);
-    max-height: calc(100%/12 * 7);
-}
 
-.row-xs-6{
-    flex-basis: calc(100%/12 * 6);
-    max-height: calc(100%/12 * 6);
-}
-.row-xs-5{
-    flex-basis: calc(100%/12 * 5);
-    max-height: calc(100%/12 * 5);
-}
-.row-xs-4{
-    flex-basis: calc(100%/12 * 4);
-    max-height: calc(100%/12 * 4);
-}
-.row-xs-3{
-    flex-basis: calc(100%/12 * 3);
-    max-height: calc(100%/12 * 3);
-}
-.row-xs-2{
-    flex-basis: calc(100%/12 * 2);
-    max-height: calc(100%/12 * 2);
-}
-.row-xs-1{
-    flex-basis: calc(100%/12 * 1);
-    max-height: calc(100%/12 * 1);
-}
 /* Offset */
 .col-offset-xs-12{
     margin-left:calc(100%/12 * 12);
@@ -195,43 +137,7 @@
 .col-offset-xs-1{
     margin-left:calc(100%/12 * 1);
 }
-/* Offset  row*/
-.row-offset-xs-12{
-    margin-top:calc(100%/12 * 12);
-}
-.row-offset-xs-10{
-    margin-top:calc(100%/12 * 10);
-}
-.row-offset-xs-11{
-    margin-top:calc(100%/12 * 11);
-}
-.row-offset-xs-9{
-    margin-top:calc(100%/12 * 9);
-}
-.row-offset-xs-8{
-    margin-top:calc(100%/12 * 8);
-}
-.row-offset-xs-7{
-    margin-top:calc(100%/12 * 7);
-}
-.row-offset-xs-6{
-    margin-top:calc(100%/12 * 6);
-}
-.row-offset-xs-5{
-    margin-top:calc(100%/12 * 5);
-}
-.row-offset-xs-4{
-    margin-top:calc(100%/12 * 4);
-}
-.row-offset-xs-3{
-    margin-top:calc(100%/12 * 3);
-}
-.row-offset-xs-2{
-    margin-top:calc(100%/12 * 2);
-}
-.row-offset-xs-1{
-    margin-top:calc(100%/12 * 1);
-}
+
 /* EXTRA Utils */
 .xs-start{
     justify-content: flex-start;
