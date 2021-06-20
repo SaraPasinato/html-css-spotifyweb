@@ -236,8 +236,17 @@ img{
     margin:20px 15px 20px 20px;
     flex-basis: 173px;
     min-height:210px;
+    position: relative;
 }
 
+.card .far{
+    visibility: hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+
+}
 #popular .card .album{
     min-height: 176px;
   
@@ -283,6 +292,14 @@ a:hover{
 
 #player [class*='fa']:hover{
     scale: 1.2;
+}
+
+.card:hover .far{
+    visibility: visible;
+}
+
+.card:hover .album{
+    filter:grayscale(50%);
 }
 /*? Footer */
 
