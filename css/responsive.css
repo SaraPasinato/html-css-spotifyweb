@@ -150,6 +150,8 @@
   #top-manu  #recently{
         margin-left:10px
     }
+
+    #personal .card,
     #recently .card{
         margin: 20px 8px 20px 0px;
         flex-basis: 150px;
@@ -191,6 +193,8 @@
       #sub-nav .flex-link{
         margin: 5px 10px;
     }
+
+    #personal .card,
     #recently .card{
         margin: 20px 15px 20px 0px;
         flex-basis: 167px;
@@ -245,8 +249,9 @@
         padding: 15px 22px;
    }
   /* main */
+  #personal .card,
   #recently .card{
     margin: 20px 15px 20px 0px;
     flex-basis: 180px;
-}
+    }
  }
