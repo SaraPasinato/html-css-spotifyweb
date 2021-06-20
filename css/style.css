@@ -300,7 +300,7 @@ a:hover{
 }
 
 .card:hover .album{
-    filter:grayscale(50%);
+    filter:grayscale(90%);
 }
 /*? Footer */
 
