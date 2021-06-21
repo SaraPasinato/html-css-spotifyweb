@@ -315,10 +315,13 @@ a:hover{
     visibility: visible;
 }
 
+.box-img:hover ,
 .card:hover .album{
     filter:grayscale(90%);
     scale:1.05;
 }
+
+
 /*? Footer */
 
 .box-img{
