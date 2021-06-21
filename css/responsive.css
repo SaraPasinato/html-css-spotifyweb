@@ -153,6 +153,12 @@
         margin-left:10px
     }
 
+  #top-manu #personal,
+  #top-menu #popular{
+    margin-top: 30px;
+    margin-left: 17px;
+  }
+  
     #popular .card,
     #personal .card,
     #recently .card{
@@ -195,6 +201,11 @@
       /*? main*/
       #sub-nav .flex-link{
         margin: 5px 10px;
+    }
+
+    #top-manu #popular,
+    #top-manu #personal{
+        margin-left: 11px;
     }
 
     #popular .card,
