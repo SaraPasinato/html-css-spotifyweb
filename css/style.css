@@ -364,7 +364,13 @@ a:hover{
     background-color: #95dc2d;
     border-radius: 3px;
 }
+.fas.fa-circle.fa-xs{
+    font-size: 7px;
+    position: absolute;
+    top: -2px;
+    right: 0;
 
+}
 #sound-line{
     display: inline-block;
     height: 3px;

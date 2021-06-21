@@ -126,7 +126,7 @@
     }
  
     /*? Footer */
-    #footer-center [class *='fas fa-']{
+    #footer-center #music [class *='fas fa-']{
         font-size: 0.875em;
     }
 
@@ -136,6 +136,13 @@
     }
     #time-line{
       min-width:126px;
+    }
+
+    .fas.fa-circle.fa-xs {
+        font-size: 7px;
+        position: absolute;
+        top: -2px;
+        right: 0;
     }
 }
 
@@ -215,7 +222,7 @@
         flex-basis: 167px;
     }
     /*? Footer*/
-    #footer-center [class *='fas fa-']{
+    #footer-center #music [class *='fas fa-']{
         font-size: 1.33em;
     }
 
@@ -234,6 +241,7 @@
     #time-line{
         min-width:272px;
      }
+
  }
 
  /* X-Large devices (large desktops, 1200px and up) */
