@@ -138,12 +138,6 @@
       min-width:126px;
     }
 
-    .fas.fa-circle.fa-xs {
-        font-size: 7px;
-        position: absolute;
-        top: -2px;
-        right: 0;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
