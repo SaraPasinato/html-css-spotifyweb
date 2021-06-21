@@ -177,6 +177,15 @@ img{
     overflow-y:auto;
 }
 
+
+#recently .row{
+    margin: 0 0 0 -10px;
+}
+
+#personal .row{
+    margin: 0 0 0 -5px;
+}
+
 #main-footer .row{
     min-height: 100px;
     display: flex;
@@ -195,7 +204,14 @@ img{
     display: inline;
 }
 /*? Main */
-
+.active::after{
+    content:'';
+    display: inline-block;
+    min-width: 50%;
+    min-height: 1px;
+    margin: 1% auto auto 25%;
+    background-color:#95dc2d;
+}
 #sub-nav{
     margin-top:80px;
 }
@@ -203,17 +219,10 @@ img{
 .flex-link{
     min-height: 15px;
     margin: 5px 18px;
-    line-height: 15px;
-    padding: 5px 0px;
-    
+    line-height: 7px;  
 }
 
-#sub-nav hr{
-    max-width: 70%;
-    color: #95dc2d;
-    margin-top:2px;
-    margin:0 17px;
-}
+
 #sub-nav .row li{
     list-style-type: none;
 }
@@ -225,12 +234,12 @@ img{
     font-size: x-small;
 
 }
-   /*? sections */
+ /*? sections */
    #popular,
    #personal,
    #recently{
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
     }
 
 .card{
