@@ -21,7 +21,7 @@
     }
     #playlist-nav ul{
         font-size: smaller;
-        padding-top: 10px;
+        padding-top: 10px 0;
     }
 
     #playlist-nav ul li{
