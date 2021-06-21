@@ -89,7 +89,9 @@ img{
     height: 35%;
     padding: 1px 5px ;
 }
-
+.active-nav{
+    border-left : 1px solid #95dc2d;
+}
 
 #playlist-nav{
     width: 100%;
